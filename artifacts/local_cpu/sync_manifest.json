@@ -56,6 +56,62 @@
           "bytes": 106047
         }
       ]
+    },
+    {
+      "run": "runs/T00/seed1",
+      "result_sha256": "59210e14741efdfdd8499b137297f81aeb0fb20f0b88f36ec92e5218efec0bf7",
+      "files": [
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/config.json",
+          "sha256": "db688853d700689c3def58c976607a9b099ead2ba3216f95b611c6badea0dd11",
+          "bytes": 1346
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/environment.json",
+          "sha256": "850f166f16f31ffe4eb62f2f70ee6f43ea95187efaa7177121bfbbc1e71c6f58",
+          "bytes": 335
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/metadata.json",
+          "sha256": "7a0634e64ea4690e2142fdf96c57aeae5f960b93dfa45ceffce5aebbb104e6d0",
+          "bytes": 2324
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/pretrained.json",
+          "sha256": "bd3954e1d7f6bbc5cc0708298e6e73d93bd95900e0c100d30bc9fbcaf1197ff4",
+          "bytes": 709
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/profile.json",
+          "sha256": "be527669e79629742458b7ee8aac35eb9d7842464c6dd0fe0be788131ad05f22",
+          "bytes": 318
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/split_checks.json",
+          "sha256": "9bcd4cc4db1a303b27a7bc0389bd716f46f0415cc22606796b20f5f8ab8f63ae",
+          "bytes": 747
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/history.csv",
+          "sha256": "e47d616375bfdbcaeffc84cc0fc5103d86676ef32cc9b4dcab94c441ca630e38",
+          "bytes": 1483
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/result.json",
+          "sha256": "59210e14741efdfdd8499b137297f81aeb0fb20f0b88f36ec92e5218efec0bf7",
+          "bytes": 407
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed1/val_logits.npz",
+          "sha256": "6ed0712d8678fa3c9fe19946ff8b35f8e3dae29af9e42f88eda23318c17a2b44",
+          "bytes": 144925
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/curves/T00_seed1.png",
+          "sha256": "f71bcc8255588d2d8f8b9470f7f0908c57eecb9fad66fd14f8dbc51518a86fdc",
+          "bytes": 108121
+        }
+      ]
     }
   ],
   "files": [
@@ -76,8 +132,8 @@
     },
     {
       "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/cpu_status.json",
-      "sha256": "8cb1fda528a7bbbaedc2b583bff69919fb97fd02ce7514a5f72df560921860dc",
-      "bytes": 207
+      "sha256": "024ecbdfe9df7484591e94681ebfb42d357b1454af78aded7178ea4a5d34b4a7",
+      "bytes": 206
     }
   ],
   "policy": "No data, checkpoints, optimizer states, or test-part caches are copied to Git."

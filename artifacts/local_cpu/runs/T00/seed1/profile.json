@@ -1,0 +1,15 @@
+{
+  "gmac": 4.469676288,
+  "tool": "fvcore (one multiply-add counted as one)",
+  "unsupported_ops": {
+    "aten::gelu": 18,
+    "aten::mul": 18,
+    "aten::add": 18
+  },
+  "by_operator": {
+    "conv": 292965120,
+    "layer_norm": 14868480,
+    "linear": 4161805056,
+    "adaptive_avg_pool2d": 37632
+  }
+}
