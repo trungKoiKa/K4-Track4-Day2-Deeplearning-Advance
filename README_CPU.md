@@ -32,3 +32,12 @@ Chế độ này chỉ hoàn tất huấn luyện. Sau 6 lượt, trạng thái 
 pipeline/hiệu chuẩn, chạy test có cache, đo latency trên cùng CPU, đánh giá bằng
 `eval.py`, xuất và kiểm tra sáu sản phẩm. Không gộp latency CPU với T4 để xếp hạng.
 Driver không mở test và không tự nộp bài.
+
+## Chuyển một lượt đang dở sang T4
+
+Chỉ chuyển **sau khi một epoch đã lưu checkpoint**. Dùng
+`prepare_gpu_migration.py` để tạo ZIP ngoài Git; nó lưu cả metadata CPU gốc,
+SHA256 checkpoint và metadata CUDA mới. Bản tiếp tục giữ `amp=False` để khôi
+phục scaler/optimizer/scheduler/RNG an toàn; các lượt T4 mới có thể dùng AMP
+theo cấu hình chung. Không sửa trực tiếp `config.json` hay `metadata.json` của
+CPU study và không upload ZIP này lên GitHub.
