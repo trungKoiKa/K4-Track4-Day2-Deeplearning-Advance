@@ -11,4 +11,9 @@ checkpoints/
 __pycache__/
 .ipynb_checkpoints/
 runs/
+# Lightweight reproducibility records are intentionally synchronized here.
+!artifacts/
+!artifacts/local_cpu/
+!artifacts/local_cpu/runs/
+!artifacts/local_cpu/runs/**
 eval_out/
