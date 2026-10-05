@@ -1,0 +1,11 @@
+{
+  "exp_id": "T00",
+  "seed": 1,
+  "epoch": 1,
+  "phase": "training",
+  "batch": 624,
+  "batches_per_epoch": 656,
+  "pid": 28860,
+  "updated_unix": 1791189691.6465414,
+  "ready_to_submit": false
+}

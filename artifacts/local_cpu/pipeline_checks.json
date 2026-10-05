@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "initial_ce": 2.2100605964660645,
+  "reference_ln9": 2.1972245773362196,
+  "initial_ce_note": "Diagnostic reference, not an equality guarantee with real non-uniform images",
+  "overfit_loss": 0.022265605628490448,
+  "overfit_steps": 5,
+  "train_filenames": [
+    "20171109-175921-2.jpg",
+    "20170714-142019-3.jpg",
+    "20170718-101402-2.jpg",
+    "20170913-110647-1.jpg"
+  ],
+  "device": "cpu",
+  "threshold": 0.05,
+  "focal_gamma0_equals_ce": true,
+  "smoothing0_equals_ce": true
+}

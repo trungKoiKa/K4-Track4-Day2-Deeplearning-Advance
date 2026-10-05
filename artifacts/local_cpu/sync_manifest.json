@@ -1,0 +1,84 @@
+{
+  "study": "C:\\Users\\Hoang Anh\\.codex\\visualizations\\2026\\10\\03\\01a10133-0b7a-7873-a4da-69e8e881f33b\\cpu_study",
+  "completed_runs": [
+    {
+      "run": "runs/T00/seed0",
+      "result_sha256": "75d1fa48510d3c012438d435aabfec9bfc42ff5c117ce8c3cf09fd8fa69e673f",
+      "files": [
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/config.json",
+          "sha256": "670086c0cba781b81464aabd41d6d0f64a0f2ecf7bc57914e6e7581686e60abd",
+          "bytes": 1346
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/environment.json",
+          "sha256": "850f166f16f31ffe4eb62f2f70ee6f43ea95187efaa7177121bfbbc1e71c6f58",
+          "bytes": 335
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/metadata.json",
+          "sha256": "e100e9f338381da76832c24540caceb8b6f84b3016cf83d51887007ec62465ed",
+          "bytes": 2324
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/pretrained.json",
+          "sha256": "bd3954e1d7f6bbc5cc0708298e6e73d93bd95900e0c100d30bc9fbcaf1197ff4",
+          "bytes": 709
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/profile.json",
+          "sha256": "be527669e79629742458b7ee8aac35eb9d7842464c6dd0fe0be788131ad05f22",
+          "bytes": 318
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/split_checks.json",
+          "sha256": "9bcd4cc4db1a303b27a7bc0389bd716f46f0415cc22606796b20f5f8ab8f63ae",
+          "bytes": 747
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/history.csv",
+          "sha256": "410a616bbf2dfc3c92dda06706fdcf036aba821bdd095100d1b19ad4605931dd",
+          "bytes": 1490
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/result.json",
+          "sha256": "75d1fa48510d3c012438d435aabfec9bfc42ff5c117ce8c3cf09fd8fa69e673f",
+          "bytes": 409
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/runs/T00/seed0/val_logits.npz",
+          "sha256": "94c305aedea77888d0c4cc7ed4b65bc3afa0aeb1644fdae9c531e1e319ae9cb5",
+          "bytes": 144851
+        },
+        {
+          "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/curves/T00_seed0.png",
+          "sha256": "4fb8b1785ff7b476241dbc2ecde1948592ede108644e5362c5bbf19bed286c47",
+          "bytes": 106047
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/cpu_training_plan.json",
+      "sha256": "574cec6bb8dc8e17aef9f9b89a18e9bc485be877ae5aff73c4e8ae2bbbc3e9e4",
+      "bytes": 11601
+    },
+    {
+      "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/cpu_split_checks.json",
+      "sha256": "9bcd4cc4db1a303b27a7bc0389bd716f46f0415cc22606796b20f5f8ab8f63ae",
+      "bytes": 747
+    },
+    {
+      "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/pipeline_checks.json",
+      "sha256": "1f85b73081c667e17655357887174cd52149439d84b982b2f24072aab71d62ed",
+      "bytes": 524
+    },
+    {
+      "path": "D:/Lab_VinUni/Lab_Phase2/Lab_2/K4-Track4-Day2-Deeplearning-Advance/artifacts/local_cpu/cpu_status.json",
+      "sha256": "8cb1fda528a7bbbaedc2b583bff69919fb97fd02ce7514a5f72df560921860dc",
+      "bytes": 207
+    }
+  ],
+  "policy": "No data, checkpoints, optimizer states, or test-part caches are copied to Git."
+}
