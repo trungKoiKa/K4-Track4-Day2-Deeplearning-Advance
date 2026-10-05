@@ -1,0 +1,17 @@
+{
+  "exp_id": "T00",
+  "seed": 0,
+  "backbone": "convnext_tiny",
+  "pretrained_tag": "fb_in1k",
+  "best_epoch": 10,
+  "params_m": 27.827049,
+  "train_seconds_per_epoch": 1855.2200118999995,
+  "epochs": 10,
+  "img_size": 224,
+  "macro_f1": 0.955677995262309,
+  "top1": 0.9668666095401314,
+  "ece": 0.006369341050756373,
+  "balanced_acc": 0.9536518928414426,
+  "n": 3501,
+  "gmac": 4.469676288
+}
