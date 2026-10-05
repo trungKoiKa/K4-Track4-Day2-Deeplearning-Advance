@@ -22,6 +22,11 @@ của checkpoint cuối. Không tự giảm epoch hoặc đổi seed.
 Máy cần tiếp tục bật và không sleep để tiến trình chạy; nếu máy tắt, dùng script
 trên sau khi bật lại. Không cần giữ Colab mở.
 
+Khi một lượt đã có `result.json`, chạy `python sync_cpu_outputs.py` từ thư mục
+dự án. Script chỉ đồng bộ config, log, metric, validation logit và curve của lượt
+đã hoàn tất vào `artifacts/local_cpu/`; nó loại checkpoint, cache test và dataset.
+Sau đó commit/push các file nhẹ này lên GitHub.
+
 Chế độ này chỉ hoàn tất huấn luyện. Sau 6 lượt, trạng thái vẫn là
 `ready_to_submit: false`: cần hoàn tất so sánh inference trên validation, khóa
 pipeline/hiệu chuẩn, chạy test có cache, đo latency trên cùng CPU, đánh giá bằng
