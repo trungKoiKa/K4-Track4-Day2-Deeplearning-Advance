@@ -1,0 +1,53 @@
+{
+  "compatibility": {
+    "exp_id": "T00",
+    "seed": 2,
+    "fold": 0,
+    "backbone": "convnext_tiny",
+    "pretrained_tag": "convnext_tiny.fb_in1k",
+    "init": "finetune",
+    "drop_rate": 0.0,
+    "img_size": 224,
+    "aug": "basic",
+    "sampler": null,
+    "mix": null,
+    "mix_alpha": 1.0,
+    "loss": "ce",
+    "label_smoothing": 0.0,
+    "focal_gamma": 2.0,
+    "class_weight_beta": null,
+    "epochs": 10,
+    "batch_size": 16,
+    "grad_accum": 4,
+    "lr_backbone": 0.0001,
+    "lr_head": 0.001,
+    "weight_decay": 0.05,
+    "warmup_epochs": 1.0,
+    "ema_decay": null,
+    "amp": false,
+    "num_workers": 2,
+    "device": "cpu"
+  },
+  "data_hashes": {
+    "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+    "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+    "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+    "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+  },
+  "code_hashes": {
+    "benchmark.py": "7e9070a51f95234aac64b3bb770f269d8cd107eee9c623c3737a531196d225f2",
+    "common.py": "08b6207c2f5535d304d888d4b4698138efebd94e8650a960c16e85aa4ca700f9",
+    "dataset.py": "e310704f94207fa2f6d3e1e2e45365d4c721d0e93007f220416de6b8d95e0a60",
+    "experiments.py": "e8ade22b2d54ef6bb8c95900174f05db01cc02b9f7727e5277800b3c9b0033c6",
+    "inference.py": "9b3f9a8bc22aedb94e56bd4459f2a654eb17ea1670c6fc89aabd7efe1506961a",
+    "losses.py": "404e8aa810a239ad24d968828a5c24cb7bb83db7674f95bad0e07f53026f72aa",
+    "model.py": "9a3a7bc5d23ce630fba9f6b58643bc42d6a23f35cb433af10ad7814fc7604cc9",
+    "preparation.py": "1e656a26e418e1ab287a8bd9aec312896a7feaccb62621a85c84653171495cf4",
+    "reporting.py": "1f6680192db577a6135780b9972601aebca631ebc1b5f4bd2df28024884a41a3",
+    "sanity.py": "a29604fcde4429dfd6832e22c96f6939db67b20d456a3a8c7710fe148bc6b18b",
+    "train.py": "c84b0fc26dd7bbfbb9cb1ed45c007b1ae46c1ab4084f1785d8ba467979d3c9c2",
+    "validation.py": "743b19b7139a19438e7206e2462b0ad4ae0021ffa60bffcdbb1491f08caf36d9",
+    "__init__.py": "68804e77b0de842a80ebed50aae13a2eb7497222768131ef02764098da9de0d4",
+    "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+  }
+}
